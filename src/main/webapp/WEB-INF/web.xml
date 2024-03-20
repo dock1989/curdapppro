@@ -30,4 +30,15 @@
     <servlet-name>ShowRecord</servlet-name>
     <url-pattern>/ShowRecord</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Delete</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>com.curd.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
 </web-app>
