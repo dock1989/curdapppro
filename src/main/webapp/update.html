@@ -5,11 +5,35 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-Choose any operation from below<br>
-1. <a href="select.html">Select</a>
-2. <a href="select.html">Insert</a><br>
-3. <a href="select.html">Delete</a><br>
-4. <a href="select.html">Update</a><br>
+	
+	<form action="update" method="post">
+	<table>
+		<tr>
+			<td>Id:</td>
+			<td><input type="text" name = "id"/></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name = "name"/></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name = "password" /></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name = "email"></td>
+		</tr>
+		<tr>
+			<td>Contact Number:</td>
+			<td><input type="text" name = "cnum"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Update Record"><input type="reset" value="Clear"></td>
+			
+		</tr>
+	</table>
+</form>
+	
 </body>
 </html>
